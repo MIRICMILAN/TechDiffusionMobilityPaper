@@ -10,7 +10,7 @@ As new technologies diffuse within an industry, they impact the value of worker 
 
 This repository contains the **transparency materials** for the paper. These materials include the Stata do-files and Jupyter Notebooks necessary to replicate the analysis and figures presented in the study.
 
-**Note on Data Availability:** The datasets required to run these scripts will be posted to this repository following the publication of the paper.
+**Note on Data Availability:** The dataset used to perform this analysis included data on product sales which was licensed and cannot be publicly shared. The dataset with the publicly availible data will be made availible. 
 
 ## Table of Contents
 
@@ -45,7 +45,7 @@ Middleware usage increased significantly during the sample period, particularly 
 Our baseline regression analysis reveals a differential impact on worker mobility based on their role. The marginal effects plots below show the predicted likelihood of a worker changing employers, comparing those who worked on projects with middleware versus those who did not, stratified by game genre (Shooter vs. Non-Shooter).
 
 **Programmers vs. Creatives**
-For **Programmers** (left panels), working with middleware is associated with a lower likelihood of mobility, consistent with the standardization of technical skills. Conversely, for **Creatives** (right panels), middleware usage is associated with higher mobility, suggesting that these tools allow their specialized artistic skills to be more easily transferred across firms.
+For **Programmers** (lower panels), working with middleware is associated with a lower likelihood of mobility, consistent with the standardization of technical skills. Conversely, for **Creatives** (upper panels), middleware usage is associated with higher mobility, suggesting that these tools allow their specialized artistic skills to be more easily transferred across firms.
 
 <img src="./Figures%20&%20Tables/Margins%20Plot%20-%20Likelihood%20of%20Changing%20Employer%20by%20Genre%20and%20Middleware%20(Programmers%20and%20Creatives).png" width="600" />
 
