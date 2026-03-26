@@ -2,6 +2,9 @@
 
 **Authors:** Milan Miric (University of Southern California) and Hakan Ozalp (University of Amsterdam)
 
+Forthcoming in Management Information Systems Quarterly
+
+
 ## Abstract
 
 As new technologies diffuse within an industry, they impact the value of worker skills, and in turn may influence the mobility of workers between firms in that industry. This mobility may be particularly pronounced for individuals whose jobs are complementary to these new technologies and therefore increases demand for these individuals. In this paper, we investigate the impact of a small set of development tools diffusing within an industry and investigate whether this was associated with an increase in worker mobility for individuals with complementary skills, compared to those with (partly) substitutable ones. Specifically, we study the diffusion of middleware tools within the video game industry that made human capital more general by making it industry-specific (rather than firm-specific), and was complementary to the tasks being performed by Creatives in this industry, compared to Programmers. We exploit the uneven diffusion of these tools across genres to investigate whether workers experienced greater mobility in the genre where the technologies diffused more broadly. We also find greater mobility between projects that used the same middleware components. We find that the diffusion of these tools was associated with greater mobility for creatives than for programmers. These results are robust to a variety of empirical checks and speak to the impact of broad diffusion of IT tools, which may enable workers to more easily move between companies.
