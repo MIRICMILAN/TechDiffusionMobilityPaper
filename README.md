@@ -32,8 +32,11 @@ This repository contains the **transparency materials** for the paper. These mat
     * `Baseline_Mobility_Trends.png`: Baseline probability of changing employers over time.
 
 * **[Scripts/]**
-    * `Dataset Construction & Regression Analysis.ipynb`: The primary notebook that performs data cleaning, merges datasets, runs Stata regressions, and generates the regression tables and marginal effects plots.
+    * `Dataset Construction.ipynb`: The primary notebook that performs data cleaning, merges datasets and generates the dataset used for the analysis.
+    *  `Regression Analysis & Results.ipynb`: Runs regressions in Stata, and generates the regression tables and marginal effects plots.
     * `Descriptive Figures.ipynb`: Python notebook used to generate the descriptive diffusion and genre breakdown figures.
+    * `Summary of Results.ipynb`: Main Notebook providing an overview of the results reported in the paper.
+    * `Regression Analysis [Comparison without Proprietary Data].ipynb`: The sales data for games is proprietary and could not be released. Here we have provided a comparison between how the data which can be shared, and the proprietary data provide comparable results. 
 
 ## Summary of Results
 
