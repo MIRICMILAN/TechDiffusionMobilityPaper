@@ -13,7 +13,7 @@ As new technologies diffuse within an industry, they impact the value of worker 
 
 This repository contains the **transparency materials** for the paper. These materials include the Stata do-files and Jupyter Notebooks necessary to replicate the analysis and figures presented in the study.
 
-**Note on Data Availability:** Due to licensing restrictions, the product sales data used in this analysis cannot be shared. We will, however, make the publicly available portions of the dataset accessible. 
+**Note on Data Availability:** Due to licensing restrictions, the product sales data used in this analysis cannot be shared. We will, however, make the publicly available portions of the dataset accessible. We have provided a comparison which shows how this data provies comparable results to those in the paper (the coefficients change very little when the controls based on proprietary data are removed). The notebooks provide results for how the coefficients look once the 
 
 ## Table of Contents
 
@@ -33,7 +33,7 @@ This repository contains the **transparency materials** for the paper. These mat
 
 * **[Code & Analysis/](./Code%20&%20Analysis)**
     * `Dataset Construction.ipynb`: The primary notebook that performs data cleaning, merges datasets and generates the dataset used for the analysis.
-    *  `Regression Analysis & Results.ipynb`: Runs regressions in Stata, and generates the regression tables and marginal effects plots.
+    * `Regression Analysis & Results.ipynb`: Runs regressions in Stata, and generates the regression tables and marginal effects plots.
     * `Descriptive Figures.ipynb`: Python notebook used to generate the descriptive diffusion and genre breakdown figures.
     * `Summary of Results.ipynb`: Main Notebook providing an overview of the results reported in the paper.
     * `Regression Analysis [Comparison without Proprietary Data].ipynb`: The sales data for games is proprietary and could not be released. Here we have provided a comparison between how the data which can be shared, and the proprietary data provide comparable results. 
