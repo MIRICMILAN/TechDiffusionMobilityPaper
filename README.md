@@ -31,7 +31,7 @@ This repository contains the **transparency materials** for the paper. These mat
     * `Coefplot_Any_Middleware.png`: Coefficient plot of mobility trends using any middleware.
     * `Baseline_Mobility_Trends.png`: Baseline probability of changing employers over time.
 
-* **[Code & Analysis/](./Code%20&%20Analysis)****
+* **[Code & Analysis/](./Code%20&%20Analysis)**
     * `Dataset Construction.ipynb`: The primary notebook that performs data cleaning, merges datasets and generates the dataset used for the analysis.
     *  `Regression Analysis & Results.ipynb`: Runs regressions in Stata, and generates the regression tables and marginal effects plots.
     * `Descriptive Figures.ipynb`: Python notebook used to generate the descriptive diffusion and genre breakdown figures.
