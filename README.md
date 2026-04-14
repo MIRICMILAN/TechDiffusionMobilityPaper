@@ -13,7 +13,7 @@ As new technologies diffuse within an industry, they impact the value of worker 
 
 This repository contains the **transparency materials** for the paper. These materials include the Stata do-files and Jupyter Notebooks necessary to replicate the analysis and figures presented in the study.
 
-**Note on Data Availability:** Due to licensing restrictions, the product sales data used in this analysis cannot be shared. We will, however, make the publicly available portions of the dataset accessible. We have provided a comparison which shows how this data provies comparable results to those in the paper (the coefficients change very little when the controls based on proprietary data are removed). The notebooks provide results for how the coefficients look once the 
+**Note on Data Availability:** Due to licensing restrictions, the product sales data used in this analysis cannot be shared. We will, however, make the publicly available portions of the dataset accessible. We have provided a comparison which shows how this data provies comparable results to those in the paper (the coefficients change very little when the controls based on proprietary data are removed). The notebooks provide results for how the coefficients look once the variables constructed with proprietary data are included, as well as when they are removed.
 
 ## Table of Contents
 
