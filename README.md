@@ -15,30 +15,30 @@ This repository contains the **transparency materials** for the paper. These mat
 
 **Note on Data Availability:** Due to licensing restrictions, the product sales data used in this analysis cannot be shared. We will, however, make the publicly available portions of the dataset accessible. We have provided a comparison which shows how this data provies comparable results to those in the paper (the coefficients change very little when the controls based on proprietary data are removed). The notebooks provide results for how the coefficients look once the variables constructed with proprietary data are included, as well as when they are removed.
 
-## Table of Contents
+## Repository Structure
 
-* **[Figures & Tables/](./Figures%20&%20Tables)**
-    * `Table 1.html`: Baseline regression results (Full Sample, Creatives, Programmers).
-    * `Table 2.html`: Results using the alternative "Popular Middleware" definition.
-    * `Table 3.html`: Results using the Share-Based diffusion measure.
-    * `Middleware_Share_Over_Time.png`: Figure showing the diffusion of any third-party middleware over time.
-    * `Popular_Middleware_Share_Over_Time.png`: Figure showing the diffusion of popular middleware over time.
-    * `Middleware_Usage_By_Genre.png`: Breakdown of middleware usage by game genre.
-    * `Margins Plot - Likelihood of Changing Employer by Genre and Middleware (Full Sample).png`: Marginal effects plot for the full sample.
-    * `Margins Plot - Likelihood of Changing Employer by Genre and Middleware (Programmers and Creatives).png`: Marginal effects plot stratified by role.
-    * `Margins Plot - Likelihood of Changing Employer Post Middleware By Previous MIddleware Use.png`: Cross-sectional mobility differences in the post-adoption period.
-    * `Coefplot_Popular_Middleware.png`: Coefficient plot of mobility trends using popular middleware.
-    * `Coefplot_Any_Middleware.png`: Coefficient plot of mobility trends using any middleware.
-    * `Baseline_Mobility_Trends.png`: Baseline probability of changing employers over time.
+### [Figures & Tables](./Figures%20%26%20Tables)
+* [Table 1.html](./Figures%20%26%20Tables/Table%201.html): Baseline regression results (Full Sample, Creatives, Programmers).
+* [Table 2.html](./Figures%20%26%20Tables/Table%202.html): Results using the alternative "Popular Middleware" definition.
+* [Table 3.html](./Figures%20%26%20Tables/Table%203.html): Results using the Share-Based diffusion measure.
+* [Middleware_Share_Over_Time.png](./Figures%20%26%20Tables/Middleware_Share_Over_Time.png): Figure showing the diffusion of any third-party middleware over time.
+* [Popular_Middleware_Share_Over_Time.png](./Figures%20%26%20Tables/Popular_Middleware_Share_Over_Time.png): Figure showing the diffusion of popular middleware over time.
+* [Middleware_Usage_By_Genre.png](./Figures%20%26%20Tables/Middleware_Usage_By_Genre.png): Breakdown of middleware usage by game genre.
+* [Margins Plot (Full Sample)](./Figures%20%26%20Tables/Margins%20Plot%20-%20Likelihood%20of%20Changing%20Employer%20by%20Genre%20and%20Middleware%20(Full%20Sample).png): Marginal effects plot for the full sample.
+* [Margins Plot (Programmers and Creatives)](./Figures%20%26%20Tables/Margins%20Plot%20-%20Likelihood%20of%20Changing%20Employer%20by%20Genre%20and%20Middleware%20(Programmers%20and%20Creatives).png): Marginal effects plot stratified by role.
+* [Margins Plot (Post-Adoption Mobility)](./Figures%20%26%20Tables/Margins%20Plot%20-%20Likelihood%20of%20Changing%20Employer%20Post%20Middleware%20By%20Previous%20MIddleware%20Use.png): Cross-sectional mobility differences in the post-adoption period.
+* [Coefplot_Popular_Middleware.png](./Figures%20%26%20Tables/Coefplot_Popular_Middleware.png): Coefficient plot of mobility trends using popular middleware.
+* [Coefplot_Any_Middleware.png](./Figures%20%26%20Tables/Coefplot_Any_Middleware.png): Coefficient plot of mobility trends using any middleware.
+* [Baseline_Mobility_Trends.png](./Figures%20%26%20Tables/Baseline_Mobility_Trends.png): Baseline probability of changing employers over time.
 
-* **[Code & Analysis/](./Code%20&%20Analysis)**
-    * `Dataset Construction.ipynb`: The primary notebook that performs data cleaning, merges datasets and generates the dataset used for the analysis.
-    * `Regression Analysis & Results.ipynb`: Runs regressions in Stata, and generates the regression tables and marginal effects plots.
-    * `Descriptive Figures.ipynb`: Python notebook used to generate the descriptive diffusion and genre breakdown figures.
-    * `Regression Analysis [Comparison without Proprietary Data].ipynb`: The sales data for games is proprietary and could not be released. Here we have provided a comparison between how the data which can be shared, and the proprietary data provide comparable results. 
+### [Code & Analysis](./Code%20%26%20Analysis)
+* [Dataset Construction.ipynb](./Code%20%26%20Analysis/Dataset%20Construction.ipynb): The primary notebook that performs data cleaning, merges datasets and generates the dataset used for the analysis.
+* [Regression Analysis & Results.ipynb](./Code%20%26%20Analysis/Regression%20Analysis%20%26%20Results.ipynb): Runs regressions in Stata, and generates the regression tables and marginal effects plots.
+* [Descriptive Figures.ipynb](./Code%20%26%20Analysis/Descriptive%20Figures.ipynb): Python notebook used to generate the descriptive diffusion and genre breakdown figures.
+* [Regression Analysis (Comparison)](./Code%20%26%20Analysis/Regression%20Analysis%20%5BComparison%20without%20Proprietary%20Data%5D.ipynb): Comparison between shareable data and proprietary sales data.
 
-
-* `Summary of Results.ipynb`: Main Notebook providing an overview of the results reported in the paper.
+### Main Results From Paper
+* [**Summary of Results.ipynb**](./Summary%20of%20Results.ipynb): Main Notebook providing an overview of the results reported in the paper.
 
 ## Summary of Results
 
