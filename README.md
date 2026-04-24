@@ -35,8 +35,10 @@ This repository contains the **transparency materials** for the paper. These mat
     * `Dataset Construction.ipynb`: The primary notebook that performs data cleaning, merges datasets and generates the dataset used for the analysis.
     * `Regression Analysis & Results.ipynb`: Runs regressions in Stata, and generates the regression tables and marginal effects plots.
     * `Descriptive Figures.ipynb`: Python notebook used to generate the descriptive diffusion and genre breakdown figures.
-    * `Summary of Results.ipynb`: Main Notebook providing an overview of the results reported in the paper.
     * `Regression Analysis [Comparison without Proprietary Data].ipynb`: The sales data for games is proprietary and could not be released. Here we have provided a comparison between how the data which can be shared, and the proprietary data provide comparable results. 
+
+
+* `Summary of Results.ipynb`: Main Notebook providing an overview of the results reported in the paper.
 
 ## Summary of Results
 
@@ -45,7 +47,7 @@ This study examines how the diffusion of middleware technology in the video game
 ### 1. Technology Diffusion
 Middleware usage increased significantly during the sample period, particularly after 2002. The figure below illustrates the rising share of game titles utilizing third-party middleware components.
 
-<img src="./Figures%20&%20Tables/Middleware_Share_Over_Time.png" width="600" />
+<img src="./Figures%20%26%20Tables/Middleware_Share_Over_Time.png" width="600" />
 
 ### 2. Mobility Patterns
 Our baseline regression analysis reveals a differential impact on worker mobility based on their role. The marginal effects plots below show the predicted likelihood of a worker changing employers, comparing those who worked on projects with middleware versus those who did not, stratified by game genre (Shooter vs. Non-Shooter).
